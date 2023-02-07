@@ -64,6 +64,7 @@ def list_1D():
     # Inplace sort list l (use .sort() ).
 
     l.sort()
+    print (l)
     # Get the 4th to 10th item in sorted list l and assign them to a new list new_l.
 
     new_l = l[3]
@@ -90,7 +91,7 @@ def list_2D():
 
     # Get the item at row 2 and column 1 of A.
 
-    b = [1][0]
+    b = A[1][0]
 
 
     return A,last_column, a, b
